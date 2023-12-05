@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    max-width: 1200px;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+
+a {
+    color: seashell;
+}
+
+/* --- navigation --- */
+
+nav {
+    display: flex;
+    align-items: center;
+    position: fixed;    
+    top: 0;
+    left: 0;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav img {
+    height: 50px;
+    margin-left: 10px;
+    
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px;
+    color: seashell;
+    list-style: none;
+}
+
+/* --- header --- */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    max-width: 1200px;
+    background-image: url("../images/img-mission-background.jpg");
+}
+
+.mission {
+    background-color: black;
+    width: 100%;
+}
+
+/* --- tea of the month --- */
+
+main {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.tea-of-the-month {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 75px 0;
+}
+
+.tea-of-the-month h2, .tea-of-the-month h4 {
+    width: 1200px;
+    flex-shrink: 0;
+    margin: 10px auto;
+}
+
+.tea-list {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.tea {
+    padding: 10px;
+    flex-grow: 0;
+    max-height: 300px;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+}
+
+/* --- locations --- */
+
+.locations {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    background-image: url(../Images/img-locations-background.jpg)
+}
+
+.locations-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations h2 {
+    width: 1200px;
+    flex-shrink: 0;
+}
+
+.addresses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location {
+    width: 300px;
+    margin: 15px 20px;
+    background-color: black;
+    opacity: 1;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
+}
